@@ -1,0 +1,6 @@
+com\mensajeria\AppMensajeria.class
+com\mensajeria\config\WebSocketConfig.class
+com\mensajeria\Mensaje.class
+com\mensajeria\controllers\ChatRestController.class
+com\mensajeria\controllers\HomeController.class
+com\mensajeria\service\ChatService.class

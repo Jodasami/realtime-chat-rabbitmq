@@ -1,0 +1,2 @@
+USE Chat_DB
+TRUNCATE TABLE messages;

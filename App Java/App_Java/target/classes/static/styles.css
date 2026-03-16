@@ -1,0 +1,98 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 26 feb 2026, 3:16:14 p.m.
+    Author     : jodas
+*/
+body {
+    font-family: Arial, sans-serif;
+    background: #1e1e1e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ------------------ CHAT ------------------ */
+
+#chat {
+    width: 500px;
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #444;
+    padding: 15px;
+    background: #2a2a2a;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* ------------------ MENSAJES ------------------ */
+
+.message {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* TU MENSAJE (derecha) */
+.message.you {
+    align-self: flex-end;
+    background: #4caf50;
+}
+
+/* PYTHON (izquierda) */
+.message.python {
+    align-self: flex-start;
+    background: #3a3a3a;
+}
+
+/* HEADER */
+.message-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    opacity: 0.8;
+    margin-bottom: 5px;
+}
+
+/* TEXTO */
+.message-body {
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+/* ------------------ INPUT ------------------ */
+
+.input-area {
+    margin-top: 10px;
+    width: 500px;
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #4caf50;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
