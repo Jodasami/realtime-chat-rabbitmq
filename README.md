@@ -30,7 +30,6 @@ Otros
 - Chat en tiempo real
 - Comunicación entre servicios mediante colas de mensajes
 - Arquitectura distribuida
-- Manejo de múltiples usuarios
 - Persistencia de mensajes en base de datos
 - Comunicación asíncrona mediante RabbitMQ
 
@@ -45,16 +44,6 @@ Message Processor → PostgreSQL
 
 
 ---
-
-## Estructura del repositorio
-
-
-chat-service-java/ → servicio principal del chat
-message-service-python/ → procesamiento de mensajes
-database/ → scripts de base de datos
-screenshots/ → imágenes del sistema
-docs/ → diagramas de arquitectura
-
 
 ## Nota
 
